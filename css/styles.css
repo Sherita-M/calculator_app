@@ -1,0 +1,77 @@
+/* Fonts Imports */
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Math&display=swap'); */
+
+/* Root Styles */
+* {
+	background-color: lightgray;
+	box-sizing: border-box;
+	font-family: 'Noto Sans Math', sans-serif;
+	--primary: #363537;
+	--dark-primary: #232223;
+	--white: #FFF;
+	--green: #0CCE6B;
+	--yellow: #08a454;
+}
+
+
+body {
+	display: flex;
+	justify-content: center;
+}
+
+.main-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 200px;
+	width: 20.2rem;
+	height: 744px;
+	/* border: 2px solid red; */
+}
+
+#display {
+	padding: 1rem;
+	height: 15rem;
+	width: 20rem;
+	border: none;
+	background-color: var(--dark-primary);
+}
+
+.input-container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.row {
+	display: flex;
+}
+
+input {
+	width: 100px;
+	height: 100px;
+	border: .5px solid hsl(229, 14%, 16%, 0.4);
+	font-size: 20px;
+	padding: 0px;
+	background-color: var(--primary);
+	color: var(--white);
+}
+
+input:active {
+background: hsl(149, 89%, 43%, .3);
+}
+
+.zero {
+	width: 200px;
+}
+
+.btn-highlight {
+	background-color: var(--green);
+	color: var(--white);
+}
+
+.equals-btn {
+	background-color: var(--yellow);
+	color: var(--white);
+}
+
