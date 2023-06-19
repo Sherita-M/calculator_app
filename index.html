@@ -13,59 +13,61 @@
   <body>
     <div class="main-container">
       <div class="main-display" id="main-display">
-        <input type="number" id="display" name="display" />
+        <input
+          type="text"
+          id="display"
+          name="display"
+          class="screen"
+          value=""
+          disabled
+        />
       </div>
       <div class="input-container">
         <div class="row">
-          <input class="btn-highlight" id="number" type="button" value="AC" />
-          <input class="btn-highlight" id="number" type="button" value="+/-" />
-          <input class="btn-highlight" id="number" type="button" value="%" />
+          <input class="btn-highlight button"  type="button" value="AC" />
+          <input class="btn-highlight button"  type="button" value="+/-" />
+          <input class="btn-highlight button"  type="button" value="%" />
           <input
-            class="btn-highlight"
-            id="number"
+            class="btn-highlight button"
             type="button"
             value="&divide;"
           />
         </div>
         <div class="row">
-          <input type="button" id="number" value="7" />
-          <input type="button" id="number" value="8" />
-          <input type="button" id="number" value="9" />
+          <input class="button" type="button"  value="7" />
+          <input class="button" type="button" value="8" />
+          <input type="button" value="9" />
           <input
-            class="btn-highlight"
-            id="number"
+            class="btn-highlight button"
             type="button"
             value="&times;"
           />
         </div>
         <div class="row">
-          <input type="button" id="number" value="4" />
-          <input type="button" id="number" value="5" />
-          <input type="button" id="number" value="6" />
+          <input class="button" type="button" value="4" />
+          <input type="button" value="5" />
+          <input type="button" value="6" />
           <input
-            class="btn-highlight"
-            id="number"
+            class="btn-highlight button"
             type="button"
             value="&minus;"
           />
         </div>
         <div class="row">
-          <input type="button" id="number" value="1" />
-          <input type="button" id="number" value="2" />
-          <input type="button" id="number" value="3" />
+          <input class="button" type="button" value="1" />
+          <input class="button" type="button" value="2" />
+          <input class="button" type="button" value="3" />
           <input
-            class="btn-highlight"
-            id="number"
+            class="btn-highlight button"
             type="button"
             value="&plus;"
           />
         </div>
         <div class="row">
-          <input type="button" id="number" value="0" class="zero" />
-          <input type="button" id="number" value="." />
+          <input class="button" type="button" value="0" id="zero" />
+          <input class="button" type="button"  value="." />
           <input
-            class="equals-btn"
-            id="number"
+            class="equals-btn button"
             type="button"
             value="&equals;"
           />
